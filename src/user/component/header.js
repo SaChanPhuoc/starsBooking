@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../img/logo.png";
 
 const Herder = () => {
     return (
@@ -31,7 +32,7 @@ const Herder = () => {
                     <ul>
                         <li className="active"><a href="./index.html">Trang Chủ</a></li>
                         <li><a href="./rooms.html">Phòng</a></li>
-                        <li><a href="./about-us.html">Về Chúng Tôi</a></li>
+                        <li><a href="./aboutUS">Về Chúng Tôi</a></li>
                         <li><a href="./pages.html">Trang</a>
                             <ul className="dropdown">
                                 <li><a href="./room-details.html">Chi Tiết Phòng</a></li>
@@ -68,23 +69,7 @@ const Herder = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="tn-right">
-                                    <div className="top-social">
-                                        <a href="/#"><i className="fa fa-facebook"></i></a>
-                                        <a href="/#"><i className="fa fa-twitter"></i></a>
-                                        <a href="/#"><i className="fa fa-tripadvisor"></i></a>
-                                        <a href="/#"><i className="fa fa-instagram"></i></a>
-                                    </div>
                                     <a href="/#" className="bk-btn">Đặt Ngay</a>
-                                    <div className="language-option">
-                                        <img src="../img/flag.jpg" alt="" />
-                                        <span>VN <i className="fa fa-angle-down"></i></span>
-                                        <div className="flag-dropdown">
-                                            <ul>
-                                                <li><a href="/#">EN</a></li>
-                                                <li><a href="/#">FR</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +81,7 @@ const Herder = () => {
                             <div className="col-lg-2">
                                 <div className="logo">
                                     <a href="./index.html">
-                                        <img src="/src/img/logo.png" alt="" />
+                                        <img src={Logo} alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -106,11 +91,11 @@ const Herder = () => {
                                         <ul>
                                             <li><a href="./index.html">Trang Chủ</a></li>
                                             <li><a href="./rooms.html">Phòng</a></li>
-                                            <li className="active"><a href="./about-us.html">Về Chúng Tôi</a></li>
+                                            <li className="active"><a href="./aboutUS">Về Chúng Tôi</a></li>
                                             <li><a href="./pages.html">Trang</a>
                                                 <ul className="dropdown">
                                                     <li><a href="./room-details.html">Chi Tiết Phòng</a></li>
-                                                    <li><a href="./blog-details.html">Chi Tiết Blog</a></li>
+                                                    <li><a href="./details">Chi Tiết Blog</a></li>
                                                     <li><a href="/#">Phòng Gia Đình</a></li>
                                                     <li><a href="/#">Phòng Cao Cấp</a></li>
                                                 </ul>

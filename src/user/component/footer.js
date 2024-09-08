@@ -1,9 +1,10 @@
 import React from "react";
+import Logo from "../img/logo.png";
+import "../css/style.css"
 
 const Footer = () => {
     return (
         <>
-        
         <footer className="footer-section">
                 <div className="container">
                     <div className="footer-text">
@@ -12,7 +13,7 @@ const Footer = () => {
                                 <div className="ft-about">
                                     <div className="logo">
                                         <a href="/#">
-                                            <img src="../img/footer-logo.png" alt="" />
+                                            <img src={Logo} alt="" />
                                         </a>
                                     </div>
                                     <p>We inspire and reach millions of travelers<br /> across 90 local websites</p>

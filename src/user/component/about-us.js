@@ -10,13 +10,10 @@ import "../css/style.css";
 // import "../css/magnific-popup.css"
 // import "../css/slicknav.min.css"
 import about_1 from "../img/about/about-1.jpg";
-import Herder from "./component/header";
-import Footer from "./component/footer";
 
 const about_Us = () => {
     return (
         <>
-            <Herder />
             <div className="breadcrumb-section">
                 <div className="container">
                     <div className="row">
@@ -24,7 +21,7 @@ const about_Us = () => {
                             <div className="breadcrumb-text">
                                 <h2>Về Chúng Tôi</h2>
                                 <div className="bt-option">
-                                    <a href="./index.html">Trang Chủ</a>
+                                    <a href="./index.html">Trang Chủ </a>
                                     <span>Về Chúng Tôi</span>
                                 </div>
                             </div>
@@ -139,7 +136,6 @@ const about_Us = () => {
                     </div>
                 </div>
             </section>
-            <Footer></Footer>
         </>
     )
 }
