@@ -1,14 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/style.css";
-// import "../css/carousel.css"
-// import "../css/bootstrap.min.css"
-// import "../css/elegant-icons.css"
-// import "../css/flaticon.css"
-// import "../css/font-awesome.min.css"
-// import "../css/jquery-ui.min.css"
-// import "../css/magnific-popup.css"
-// import "../css/slicknav.min.css"
 import about_1 from "../img/about/about-1.jpg";
 
 const about_Us = () => {
